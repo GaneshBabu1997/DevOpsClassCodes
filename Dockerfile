@@ -1,4 +1,4 @@
 FROM tomcat
-ADD addressbook.war target/addressbook.war usr/local/Tomcat/webapp
+ADD target/addressbook.war usr/local/Tomcat/webapps/
 CMD ["catalina.sh","run"]
  
