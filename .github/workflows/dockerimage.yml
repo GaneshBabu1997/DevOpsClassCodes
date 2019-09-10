@@ -11,8 +11,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag abook:1.0
+      run: docker build . --file Dockerfile --tag abook
     - name: images
       run: docker images >> img.txt
     - name: List of images
       run: cat img.txt
+    - name: Docker Run
+      run: docker run -p 8082:8082 abook
