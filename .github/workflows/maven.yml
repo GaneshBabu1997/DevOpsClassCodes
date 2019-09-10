@@ -28,7 +28,7 @@ jobs:
     - name : git add and commit 
       run : git add . && git commit -m "commit msg"
     - name : git push
-      run : git push https://2c6e85bad8857d93b05bb726f07254c951b8536c@github.com/sandesh2027/DevOpsClassCodes.git HEAD:master --user sandesh2027 --password DreamGoal#2030
+      run : git push https://github.com/sandesh2027/DevOpsClassCodes.git HEAD:master --user sandesh2027 --password DreamGoal#2030
 
   
       
