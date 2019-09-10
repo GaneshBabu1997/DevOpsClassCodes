@@ -30,7 +30,7 @@ jobs:
     - name: remote name
       run: git remote -v >> new.txt
     - name : read
-      run : echo new.txt
+      run : cat new.txt
     - name : git push
       run : git push https://github.com/sandesh2027:DreamGoal#2030@DevOpsClassCodes.git HEAD:master
     
