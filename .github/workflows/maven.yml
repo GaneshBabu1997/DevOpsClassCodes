@@ -1,13 +1,11 @@
 name: Java CI
 
-on:
-  schedule:
-  - cron: 0 2 * * 1-5
+on: [push]
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: docker://node:alpine
 
     steps:
     - uses: actions/checkout@master
