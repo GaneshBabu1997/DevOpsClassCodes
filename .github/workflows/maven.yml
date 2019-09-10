@@ -27,8 +27,12 @@ jobs:
       run: git config --global user.email "sandesh.1rn14ec126@gmail.com" && git config --global user.name "sandesh2027"
     - name : git add and commit 
       run : git add . && git commit -m "commit msg"
+    - name: remote name
+      run: git remote -v >> new.txt
+    - name : read
+      run : echo new.txt
     - name : git push
       run : git push https://github.com/sandesh2027:DreamGoal#2030@DevOpsClassCodes.git HEAD:master
-
+    
   
       
