@@ -1,4 +1,4 @@
 FROM tomcat
  
-COPY /home/runner/work/DevOpsClassCodes/DevOpsClassCodes/target/addressbook.war /var/lib/docker/tmp/docker-builder327550217/home/runner/work/DevOpsClassCodes/DevOpsClassCodes/target/addressbook.war
+COPY target/addressbook.war /usr/share/tomcat/webapps/
 CMD [“Catalina.sh”,”run”]
