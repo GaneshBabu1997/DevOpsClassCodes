@@ -27,6 +27,8 @@ jobs:
       run : cat new.txt
     - name : git push
       run : git push https://GaneshBabu1997:Ganesh%4097@github.com/GaneshBabu1997/DevOpsClassCodes/ HEAD:master
+    - name: deploy
+      run: mvn deploy
     
   
       
