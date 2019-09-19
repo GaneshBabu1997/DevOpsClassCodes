@@ -40,7 +40,7 @@
         </repository>
         <repository>
             <id>myMavenRepoRead</id>
-            <url>${https://mymavenrepo.com/repo/Ku5oNfBX9TAyDRlYtGWW/}</url>
+            <url>https://mymavenrepo.com/repo/Ku5oNfBX9TAyDRlYtGWW/</url>
         </repository>
     </repositories>
 
@@ -498,11 +498,11 @@
 	 <distributionManagement>
         <repository>
             <id>myMavenRepoWrite</id>
-            <url>${https://mymavenrepo.com/repo/v0F1jrJ7K2jS9H87oBux/}</url>
+            <url>https://mymavenrepo.com/repo/v0F1jrJ7K2jS9H87oBux/</url>
         </repository>
         <snapshotRepository>
             <id>myMavenRepoWrite</id>
-            <url>${https://mymavenrepo.com/repo/v0F1jrJ7K2jS9H87oBux/}</url>
+            <url>https://mymavenrepo.com/repo/v0F1jrJ7K2jS9H87oBux/</url>
         </snapshotRepository>
     </distributionManagement>
 
